@@ -1,0 +1,117 @@
+/* HEADER */
+
+.main-container {
+	max-width: 80vw;
+	height: 100vh;
+	margin-left: 320px;
+	margin-right: 56px;
+}
+
+.header__navigation {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 16px;
+	margin: 10px;
+	border-radius: 8px;
+	background-color: var(--sec-bg-color);
+}
+
+.header__navigation .navigation {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.header__navigation .navigation .arrow-left {
+	margin-right: 1.25rem;
+}
+
+.arrow-left,
+.arrow-right {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 32px;
+	height: 32px;
+	background: var(--bg-icon);
+	background-color: var(--bg-arrow-color);
+	border: none;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.header__login {
+	display: flex;
+	align-items: center;
+}
+
+.header__search {
+	display: flex;
+	align-items: center;
+	width: 364px;
+	height: 48px;
+	margin-left: 8px;
+	background-color: var(--light-bg-color);
+	border-radius: 500px;
+	border: 1px solid transparent;
+}
+
+.header__search img {
+	width: 16px;
+	height: 16px;
+	margin-left: 10px;
+}
+
+.header__search input {
+	background: transparent;
+	border: none;
+	padding: 0 100px 0 12px;
+	color: var(--font-color);
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	outline: none;
+}
+
+.header__login .subscribe {
+	color: #a7a7a7;
+	font-size: 16px;
+	font-weight: 700;
+	background-color: transparent;
+	margin-right: 32px;
+	border: none;
+}
+
+.header__login .login {
+	width: 100px;
+	height: 48px;
+	color: var(--button-font-color);
+	font-size: 16px;
+	font-weight: 700;
+	border-radius: 40px;
+	border: none;
+}
+
+.main-container .explorer {
+	background-color: var(--sec-bg-color);
+	color: var(--font-color);
+	margin: 10px;
+	padding: 28px;
+	border-radius: 8px;
+	font-weight: bold;
+}
+
+.main-container .explorer .title {
+	font-size: 28px;
+	margin-top: 8px;
+}
+
+.main-container .explorer .subtitle {
+	font-size: 24px;
+	margin-top: 32px;
+}
+
+.explorer .explorer__cards {
+	height: 63vh;
+}
